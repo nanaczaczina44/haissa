@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{color}
+\begin{document}
+$f(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}} \Leftrightarrow N(0,1)$
+\\$f(x)=\frac{1}{ \sigma \sqrt{2\pi}}e^{-\frac{(x-m)^2}{2\sigma^2}} \Leftrightarrow N(m,\sigma)$
+\\$EX^2=\frac{1}{\sqrt{2\pi}} \intop\nolimits_{- \infty }^{ \infty } x^2e^{-\frac{x^2}{2}}dx=$
+\\$\frac{2}{\sqrt{2\pi}} \intop\nolimits_{0}^{ \infty } x*x*e^{-\frac{x^2}{2}}dx=$
+\\$\frac{2}{\sqrt{2\pi}}=[\color{red}-xe^{-\frac{x^2}{2}}|^{\infty}_{0}+\intop\nolimits_{0}^{ \infty }e^{-\frac{x^2}{2}}dx\color{black}]=$
+\\$\frac{2}{\sqrt{2\pi}}\color{red}\frac{\sqrt{2\pi}}{2}\color{black}=1$
+\\ \color{red}
+\\$EX=E(\sigma X+m)=\sigma 0+m=m$
+\\$VarX=Var(\sigma X+m)=\sigma^2 VarX=\sigma^2$
+\\ \color{black}
+\\$F(x)=\intop\nolimits_{a}^{x}\frac{dt}{b-a}=\frac{x-a}{b-a}$
+\\$EX=\intop\nolimits_{a}^{b}x\frac{1}{b-a}dx=\frac{a+b}{2}$
+\\$VarX=\intop\nolimits_{a}^{b}x^2\frac{1}{b-a}dx-(EX)^2=$
+\\$\frac{b^3-a^3}{3(b-a)}-(\frac{a+b}{2})^2=$
+\\$\frac{4(a^2+ab+b^2)}{12}-\frac{3a^2+6ab+3b^2}{12}=\frac{(b-a)^2}{12}$
+\end{document}

@@ -1,0 +1,14 @@
+\documentclass{article}
+\begin{document}
+$h'(x)=lm_{\Delta x  \rightarrow 0}\frac{h(x+\Delta x)-h(x)}{\Delta x}=$
+\\$lm_{\Delta x  \rightarrow 0}\frac{[f(x+\Delta x)+g(x+\Delta x)]-[f(x)+g(x)]}{\Delta x}=$
+\\$lm_{\Delta x  \rightarrow 0}\frac{f(x+\Delta x)-f(x)+g(x +\Delta x)-g(x)}{\Delta x}=$
+\\$lm_{\Delta x  \rightarrow 0}\frac{f(x+\Delta x)-f(x)}{\Delta x}+lm_{\Delta x  \rightarrow 0}\frac{g(x+\Delta x)-g(x)}{\Delta x}=$
+\\$f'(x)+g'(x)$
+\\ 
+\\$sn'x=lm_{h\rightarrow 0}\frac{snxcsh+csxsnh-snx}{h}=$
+\\$lm_{h\rightarrow 0}\frac{snxcsh-snx+csxsnh}{h}=$
+\\$lm_{h\rightarrow 0}\frac{snx(csh-1)+csxsnh}{h}=$
+\\$lm_{h\rightarrow 0}snx*\frac{(csh-1)}{h}+lm_{h\rightarrow 0}csx*\frac{snh}{h}=$
+\\$snx*0+csx*1=csx$
+\end{document}
